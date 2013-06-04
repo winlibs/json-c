@@ -92,6 +92,7 @@
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
+				CommandLine="copy ..\..\config.h.win32 ..\..\config.h"
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
@@ -162,6 +163,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\json_c_version.c"
+				>
+			</File>
+			<File
 				RelativePath="..\..\json_object.c"
 				>
 			</File>
@@ -183,10 +188,6 @@
 			</File>
 			<File
 				RelativePath="..\..\printbuf.c"
-				>
-			</File>
-			<File
-				RelativePath="..\..\json_c_version.c"
 				>
 			</File>
 		</Filter>
